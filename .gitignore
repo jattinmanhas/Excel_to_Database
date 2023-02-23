@@ -1,0 +1,25 @@
+
+.idea/
+
+# Smarty
+lexer/*.php
+lexer/*.php.bak
+lexer/*.out
+
+/site
+
+# Dev
+phpunit*
+.phpunit.result.cache
+vendor/*
+composer.lock
+.sh
+*.xml
+*.yml
+*.sh
+libs
+docs
+tests
+utilities
+vendor
+
