@@ -1,20 +1,16 @@
 # Smarty template engine
 Smarty is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic. 
 
-![CI](https://github.com/smarty-php/smarty/workflows/CI/badge.svg)
+## About this app
+This is a simple smarty php app for uploading data from Excel file to the MySQL database. You can also download data from the database to an Excel file.
 
-## Documentation
-Read the [documentation](https://smarty-php.github.io/smarty/) to find out how to use it. 
+## Features
+Features of this app includes: 
+* Exporting data from Excel file to the MySQL Database.
+* Validation of the Excel file includes: 
+    * Headings of Excel file should be in Order.
+    * There should be empty value in the Excel file.
+    * There should not be a duplicate value in the first column.
 
-## Requirements
-Smarty can be run with PHP 7.1 to PHP 8.2.
+* Printing of all the errors in the Excel sheet and also download option for a status file which tells us what is the error and on which row.
 
-## Installation
-Smarty versions 3.1.11 or later can be installed with [Composer](https://getcomposer.org/).
-
-To get the latest stable version of Smarty use:
-```bash
-composer require smarty/smarty
-````
-
-More in the [Getting Started](./docs/getting-started.md) section of the docs.
