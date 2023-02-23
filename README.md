@@ -13,4 +13,5 @@ Features of this app includes:
     * There should not be a duplicate value in the first column.
 
 * Printing of all the errors in the Excel sheet and also download option for a status file which tells us what is the error and on which row.
+* Download option to download all the data from the MySql database to the Excel file.
 
